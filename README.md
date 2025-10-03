@@ -2,9 +2,9 @@
 
 ## 🌟 Project Description
 
-[cite_start]Netflix is a leading global streaming platform, but it faces intense competition from rivals like Amazon Prime and Disney+[cite: 8, 9]. [cite_start]To maintain its market position, Netflix needs to strategically analyze its extensive content catalog to identify strengths, audience preferences, and opportunities for growth[cite: 9, 12].
+[cite_start]Netflix is a leading global streaming platform [cite: 8][cite_start], but it faces intense competition from rivals like Amazon Prime and Disney+[cite: 9]. [cite_start]To maintain its market position, Netflix needs to strategically analyze its extensive content catalog to identify strengths, audience preferences, and opportunities for growth[cite: 9, 12].
 
-[cite_start]This project, titled **'Content Trends Analysis for Strategic Recommendations'** [cite: 10][cite_start], addresses this need by analyzing a Netflix dataset of 7,789 records, covering Movies and TV Shows released between 2008 and 2021[cite: 3, 6].
+[cite_start]This project, titled **'Content Trends Analysis for Strategic Recommendations'** [cite: 10][cite_start], addresses this need by analyzing a Netflix dataset of 7,789 records, covering Movies and TV Shows available on the platform[cite: 3, 4]. [cite_start]The dataset spans multiple years, with entries ranging from 2008 to 2021[cite: 6].
 
 [cite_start]The analysis focuses on uncovering how the distribution of content (Movies vs. TV Shows, genres, and country contributions) has evolved over time[cite: 11].
 
@@ -12,12 +12,11 @@
 
 ## 🎯 Project Goals (Objectives)
 
-[cite_start]Understanding these content trends is crucial for making data-driven business decisions regarding content acquisition and production[cite: 14, 17]. The project was structured around three key objectives:
+Understanding these content trends is crucial for making data-driven business decisions regarding content acquisition and production. The project was structured around three key objectives:
 
-1.  [cite_start]**Analyze the distribution of Movies vs. TV Shows over the years**[cite: 19].
-2.  [cite_start]**Identify the most common genres and how their popularity has changed**[cite: 19].
-3.  [cite_start]**Compare country-wise contributions to Netflix’s catalog**[cite: 19].
-
+1.  **Analyze the distribution of Movies vs. TV Shows over the years** (Visualized in **`annual_content_addition_by_type.png`**).
+2.  **Identify the most common genres and how their popularity has changed** (Visualized in **`annual_genre_trends.png`**).
+3.  **Compare country-wise contributions to Netflix’s catalog** (Visualized in **`top_10_country_contributions.png`**).
 ***
 
 ## 📈 Key Data Attributes
@@ -26,11 +25,11 @@
 
 | Column Name | Description | Purpose in Analysis |
 | :--- | :--- | :--- |
-| `Category` | Content type: 'Movie' or 'TV Show' | Objective 1 (Content Distribution) |
-| `Release_Date` | Date the content was added/released | Objectives 1 & 2 (Time-Series Analysis) |
-| `Type` | Genre(s) associated with the title | Objective 2 (Genre Popularity) |
-| `Country` | Country/Countries of origin | Objective 3 (Global Contribution) |
-| `Duration` | Runtime for Movies or Seasons for TV Shows | Supplementary context |
+| `Category` | [cite_start]Content type: 'Movie' or 'TV Show' [cite: 4] | Objective 1 (Content Distribution) |
+| `Release_Date` | [cite_start]Date the content was added/released [cite: 5] | Objectives 1 & 2 (Time-Series Analysis) |
+| `Type` | [cite_start]Genre(s) associated with the title [cite: 5] | Objective 2 (Genre Popularity) |
+| `Country` | [cite_start]Country/Countries of origin [cite: 5] | Objective 3 (Global Contribution) |
+| `Duration` | [cite_start]Runtime for Movies or Seasons for TV Shows [cite: 5] | Supplementary context |
 
 ***
 
